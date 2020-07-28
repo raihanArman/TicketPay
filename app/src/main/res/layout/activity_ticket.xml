@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketActivity">
+
+
+    <ImageView
+        android:id="@+id/imgFilm"
+        android:layout_margin="16dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_below="@id/imgFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="Title Film"
+            android:id="@+id/titleFilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="Screening"
+            android:id="@+id/screening_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="Seat"
+            android:id="@+id/seat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:text="Price"
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        app:cardPreventCornerOverlap="false"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_barcode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997207205954",
+    "firebase_url": "https://ticketpay-688ba.firebaseio.com",
+    "project_id": "ticketpay-688ba",
+    "storage_bucket": "ticketpay-688ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997207205954:android:4d7e6868210847e2",
+        "android_client_info": {
+          "package_name": "id.co.myproject.ticketpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997207205954-o8qljc437f0epviulmr4bkp3jqo5jq3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.myproject.ticketpay",
+            "certificate_hash": "aa42bdd86626a359918e2fced12ade05269892bf"
+          }
+        },
+        {
+          "client_id": "997207205954-49sj80ek23rrjn1sbmus4nn9svbu7hpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCas8QbwrlJV063cDkvfgMNdCZ21PTpDWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997207205954-49sj80ek23rrjn1sbmus4nn9svbu7hpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
